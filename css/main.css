@@ -205,6 +205,31 @@ footer span {
 
 }
 
+@media all and (min-width:1024px) {
+
+	.container {
+		max-width: 920px;
+	}
+
+	.top-section {
+		margin: 50px 0;
+	}
+
+	.bottom-section {
+		margin: 50px 0;
+	}
+
+	footer {
+		min-height: 150px;
+	}
+
+	footer h4 {
+		margin-bottom: 20px;
+	}
+
+
+}
+
 @media all and (min-width: 1200px) {
 	header {
 		justify-content: space-between;
@@ -224,6 +249,10 @@ footer span {
 	header nav ul {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.top-section {
+		margin: 0;
 	}
 
 
