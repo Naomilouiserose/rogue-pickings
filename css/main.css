@@ -11,7 +11,6 @@ body {
 }
 
 .container{
-	max-width: 1200px;
 	width: 90%;
 	display: flex;
 	justify-content: center;
@@ -138,18 +137,18 @@ header nav ul li a{
 }
 
 .section-one h4 {
-	padding: 10px 0;
+	padding: 15px 10px;
 }
 
 
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 15px 10px;
 }
 
 .menu {
 	list-style: none;
-	padding: 0;
+	padding: 0 25px;
 }
 .menu li {
 	padding: 10px 0;
@@ -167,6 +166,7 @@ header nav ul li a{
 	line-height: 1.5;
 }
 
+
 /*The widths are in a percentage!*/
 footer {
 	display: flex;
@@ -183,6 +183,10 @@ footer span {
 }
 
 @media all and (min-width:768px) {
+
+	.container {
+		max-width: 640px;
+	}
 
 	.bottom-section {
 		justify-content: space-between;
@@ -203,16 +207,22 @@ footer span {
     padding: 0 20px;
 	}
 
+	.menu,
+	.reviews,
+	.address {
+		padding: 0;
+	}
+
 }
 
-@media all and (min-width:1024px) {
+@media all and (min-width: 1024px) {
 
 	.container {
 		max-width: 920px;
 	}
 
 	.top-section {
-		margin: 50px 0;
+		margin: 70px 0;
 	}
 
 	.bottom-section {
@@ -231,8 +241,23 @@ footer span {
 }
 
 @media all and (min-width: 1200px) {
+
+	.container {
+		max-width: 980px;
+	}
+
+	.top-section {
+		margin: 70px 0;
+	}
+
+	.main-image {
+		margin: 60px 0 40px 0;
+	}
+
+
 	header {
 		justify-content: space-between;
+		
 	}
 
 	header h1 {
